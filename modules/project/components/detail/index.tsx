@@ -25,12 +25,12 @@ const Detail: FC<IProps> = ({date}) => {
     }
 
     return (
-        <div className={"absolute z-10 right-0 duration-300 top-0"}>
+        <div className={"relative lg:absolute z-10 right-0 duration-300 top-0 flex flex-col-reverse lg:flex-col"}>
             <div
-                className={classNames("duration-300 bg-[#c8b16f] text-white origin-bottom", open ? "scale-y-100 block" : "scale-y-0")}>
-                <div className={"py-[30px] px-[40px]"}>
+                className={classNames("duration-300 bg-[#c8b16f] text-white origin-top h-full", open ? "scale-y-100" : "scale-y-0 block")}>
+                <div className={classNames("py-[30px] px-[40px]  duration-300", open?"h-[28rem]":"h-0")}>
                     <h2 className={"text-lg font-semibold uppercase"}>Projects Detail</h2>
-                    <ul className={"py-2"}>
+                    <ul className={classNames("py-2", !open&&"invisible")}>
                         <li className={styles["line"]}>
                             <span className={styles["name"]}>Categories</span>
                             <span>Architect, Renovation, Tilling</span>
@@ -64,7 +64,7 @@ const Detail: FC<IProps> = ({date}) => {
                 </div>
             </div>
             <div
-                className={classNames("cursor-pointer p-5 font-semibold bg-[#c8b16f] text-black origin-top duration-300", open ? "scale-y-0" : "scale-y-100 block")}
+                className={classNames("cursor-pointer p-5 font-semibold bg-[#c8b16f] text-black origin-bottom  duration-300 lg:duration-0", open ? "scale-y-0" : "scale-y-100 block")}
                 onClick={() => handleOpen()}>← SHOW DETAIL
             </div>
         </div>
