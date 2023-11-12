@@ -74,8 +74,8 @@ const SlideShow = () => {
                                    className={"w-full h-[calc(100vh-71px)] object-cover"}/>
                             <div className={"absolute top-1/2 -translate-y-1/2 w-screen "}>
                                 <div className="px-[10vw]">
-                                    <h2 className={"text-5xl font-extrabold mb-5"}>{slide.title}</h2>
-                                    <p className={"text-4xl font-medium"}>{slide.subtitle}</p>
+                                    <h2 className={"text-3xl sm:text-5xl font-extrabold mb-5"}>{slide.title}</h2>
+                                    <p className={"text-2xl sm:text-4xl font-medium"}>{slide.subtitle}</p>
                                 </div>
                             </div>
                         </div>
