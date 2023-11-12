@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .container {
-    @apply max-w-full mx-[max(15px,5%)];
+    @apply max-w-full px-[max(15px,5%)];
 }
 
 section {
