@@ -1,0 +1,229 @@
+{
+  "blog": {
+    "items": [
+      {
+        "image": "https://ucarecdn.com/7533ae58-38c1-4c06-b831-cde8214645dd/gallery7.jpg",
+        "title": "Web Design for the Future",
+        "description": "Qui ut ceteros comprehensam. Cu eos sale sanctus eligendi, id ius elitr saperet, ocurreret pertinacia pri an. No mei nibh consectetuer, semper laoreet perfecto ad qui, est rebum nulla argumentum ei. Fierent adipisci iracundia est ei, usu timeam persius ea. Usu ea justo malis, pri quando everti electram ei, ex homero omittam salutatus sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "author": "admin",
+        "date": 1699795547000,
+        "link": "web-design-trends",
+        "comments": [
+          {
+            "name": "John Smith",
+            "message": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "date": 1699795547000
+          },
+          {
+            "name": "John Smith",
+            "message": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "date": 1699795547000
+          },
+          {
+            "name": "John Smith",
+            "message": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "date": 1699795547000
+          },
+          {
+            "name": "John Smith",
+            "message": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "date": 1699795547000
+          },
+          {
+            "name": "John Smith",
+            "message": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "date": 1699795547000
+          }
+        ]
+      },
+      {
+        "image": "https://ucarecdn.com/4be5f2da-1d2e-4785-b31a-b30df714e838/gallery9.jpg",
+        "title": "Web Design for the Future",
+        "description": "Qui ut ceteros comprehensam. Cu eos sale sanctus eligendi, id ius elitr saperet, ocurreret pertinacia pri an. No mei nibh consectetuer, semper laoreet perfecto ad qui, est rebum nulla argumentum ei. Fierent adipisci iracundia est ei, usu timeam persius ea. Usu ea justo malis, pri quando everti electram ei, ex homero omittam salutatus sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "author": "admin",
+        "date": 1699795547000,
+        "link": "personal-interior",
+        "comments": [
+          {
+            "name": "John Smith",
+            "message": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "date": 1699795547000
+          }
+        ]
+      },
+      {
+        "image": "https://ucarecdn.com/94cbbcc9-422a-41d9-8d96-6ad714b63e6d/gallery5.jpg",
+        "title": "Web Design for the Future",
+        "description": "Qui ut ceteros comprehensam. Cu eos sale sanctus eligendi, id ius elitr saperet, ocurreret pertinacia pri an. No mei nibh consectetuer, semper laoreet perfecto ad qui, est rebum nulla argumentum ei. Fierent adipisci iracundia est ei, usu timeam persius ea. Usu ea justo malis, pri quando everti electram ei, ex homero omittam salutatus sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "author": "admin",
+        "date": 1699795547000,
+        "link": "creative-interactive-home",
+        "comments": [
+          {
+            "name": "John Smith",
+            "message": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "date": 1699795547000
+          },
+          {
+            "name": "John Smith",
+            "message": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "date": 1699795547000
+          },
+          {
+            "name": "John Smith",
+            "message": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "date": 1699795547000
+          },
+          {
+            "name": "John Smith",
+            "message": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "date": 1699795547000
+          },
+          {
+            "name": "John Smith",
+            "message": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+            "date": 1699795547000
+          }
+        ]
+      }
+    ],
+    "tags": [
+      "Interior",
+      "Trends",
+      "Interactive",
+      "Personal",
+      "Responsive",
+      "Creative",
+      "Design",
+      "website",
+      "application"
+    ],
+    "about": "Proin hendrerit eget tellus sit amet vestibulum. Nullam a tincidunt leo. Sed eget sem scelerisque, malesuada lectus sed, facilisis sapien. Pellentesque quis ullamcorper est, vitae condimentum enim. Phasellus suscipit eu lacus finibus rhoncus. Maecenas sed lacus aliquam, vehicula sapien ac, cursus erat. Aenean vel erat a urna efficitur varius."
+  },
+  "projects": [
+    {
+      "image": "https://ucarecdn.com/d0b4f3f6-753c-422f-9de5-af19aae74729/project1.jpg",
+      "title": "Architecture Design",
+      "subtitle": "Architecture",
+      "description": "Magna aliquam erat volutpat enim ad minim veniam. Duis autem vel eum iriure dolor in hendrerit in. quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam debitis Consectetur, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium vitae, consequuntur minima tempora cupiditate ratione est, ad molestias deserunt in ipsam ea quasi cum culpa adipisci dolores voluptatum fuga at! assumenda provident lorem ipsum dolor sit amet, consectetur. \nDonec posuere bibendum metus. Quisque gravida luctus volutpat. Mauris interdum, lectus in dapibus molestie, quam felis sollicitudin mauris, sit amet tempus velit lectus nec lorem. Nullam vel mollis neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel enim dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed tincidunt accumsan massa id viverra. Sed sagittis, nisl sit amet imperdiet convallis, nunc tortor consequat tellus, vel molestie neque nulla non ligula. Proin tincidunt tellus ac porta volutpat. Cras mattis congue lacus id bibendum. Mauris ut sodales libero. Maecenas feugiat sit amet enim in accumsan.",
+      "link": "the-luxury-interior",
+      "author": "admin",
+      "date": 1699795547000
+    },
+    {
+      "image": "https://ucarecdn.com/b91163e1-bb39-4448-93be-452313052571/project2.jpg",
+      "title": "Interior Design",
+      "subtitle": "Interior",
+      "description": "Magna aliquam erat volutpat enim ad minim veniam. Duis autem vel eum iriure dolor in hendrerit in. quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam debitis Consectetur, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium vitae, consequuntur minima tempora cupiditate ratione est, ad molestias deserunt in ipsam ea quasi cum culpa adipisci dolores voluptatum fuga at! assumenda provident lorem ipsum dolor sit amet, consectetur. \nDonec posuere bibendum metus. Quisque gravida luctus volutpat. Mauris interdum, lectus in dapibus molestie, quam felis sollicitudin mauris, sit amet tempus velit lectus nec lorem. Nullam vel mollis neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel enim dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed tincidunt accumsan massa id viverra. Sed sagittis, nisl sit amet imperdiet convallis, nunc tortor consequat tellus, vel molestie neque nulla non ligula. Proin tincidunt tellus ac porta volutpat. Cras mattis congue lacus id bibendum. Mauris ut sodales libero. Maecenas feugiat sit amet enim in accumsan.",
+      "link": "the-luxury-residence",
+      "author": "admin",
+      "date": 1699795547000
+    },
+    {
+      "image": "https://ucarecdn.com/dabb35e6-eaaf-4dbc-bc14-739b8c5e55e7/project3.jpg",
+      "title": "Architecture Design",
+      "subtitle": "Architecture",
+      "description": "Magna aliquam erat volutpat enim ad minim veniam. Duis autem vel eum iriure dolor in hendrerit in. quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam debitis Consectetur, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium vitae, consequuntur minima tempora cupiditate ratione est, ad molestias deserunt in ipsam ea quasi cum culpa adipisci dolores voluptatum fuga at! assumenda provident lorem ipsum dolor sit amet, consectetur. \nDonec posuere bibendum metus. Quisque gravida luctus volutpat. Mauris interdum, lectus in dapibus molestie, quam felis sollicitudin mauris, sit amet tempus velit lectus nec lorem. Nullam vel mollis neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel enim dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed tincidunt accumsan massa id viverra. Sed sagittis, nisl sit amet imperdiet convallis, nunc tortor consequat tellus, vel molestie neque nulla non ligula. Proin tincidunt tellus ac porta volutpat. Cras mattis congue lacus id bibendum. Mauris ut sodales libero. Maecenas feugiat sit amet enim in accumsan.",
+      "link": "the-luxury-interior-2",
+      "author": "admin",
+      "date": 1699795547000
+    },
+    {
+      "image": "https://ucarecdn.com/d0b4f3f6-753c-422f-9de5-af19aae74729/project1.jpg",
+      "title": "Architecture Design",
+      "subtitle": "Architecture",
+      "description": "Magna aliquam erat volutpat enim ad minim veniam. Duis autem vel eum iriure dolor in hendrerit in. quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam debitis Consectetur, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium vitae, consequuntur minima tempora cupiditate ratione est, ad molestias deserunt in ipsam ea quasi cum culpa adipisci dolores voluptatum fuga at! assumenda provident lorem ipsum dolor sit amet, consectetur. \nDonec posuere bibendum metus. Quisque gravida luctus volutpat. Mauris interdum, lectus in dapibus molestie, quam felis sollicitudin mauris, sit amet tempus velit lectus nec lorem. Nullam vel mollis neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel enim dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed tincidunt accumsan massa id viverra. Sed sagittis, nisl sit amet imperdiet convallis, nunc tortor consequat tellus, vel molestie neque nulla non ligula. Proin tincidunt tellus ac porta volutpat. Cras mattis congue lacus id bibendum. Mauris ut sodales libero. Maecenas feugiat sit amet enim in accumsan.",
+      "link": "the-luxury-interior-3",
+      "author": "admin",
+      "date": 1699795547000
+    },
+    {
+      "image": "https://ucarecdn.com/b91163e1-bb39-4448-93be-452313052571/project2.jpg",
+      "title": "Interior Design",
+      "subtitle": "Interior",
+      "description": "Magna aliquam erat volutpat enim ad minim veniam. Duis autem vel eum iriure dolor in hendrerit in. quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam debitis Consectetur, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium vitae, consequuntur minima tempora cupiditate ratione est, ad molestias deserunt in ipsam ea quasi cum culpa adipisci dolores voluptatum fuga at! assumenda provident lorem ipsum dolor sit amet, consectetur. \nDonec posuere bibendum metus. Quisque gravida luctus volutpat. Mauris interdum, lectus in dapibus molestie, quam felis sollicitudin mauris, sit amet tempus velit lectus nec lorem. Nullam vel mollis neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel enim dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed tincidunt accumsan massa id viverra. Sed sagittis, nisl sit amet imperdiet convallis, nunc tortor consequat tellus, vel molestie neque nulla non ligula. Proin tincidunt tellus ac porta volutpat. Cras mattis congue lacus id bibendum. Mauris ut sodales libero. Maecenas feugiat sit amet enim in accumsan.",
+      "link": "the-luxury-residence-2",
+      "author": "admin",
+      "date": 1699795547000
+    },
+    {
+      "image": "https://ucarecdn.com/dabb35e6-eaaf-4dbc-bc14-739b8c5e55e7/project3.jpg",
+      "title": "Architecture Design",
+      "subtitle": "Architecture",
+      "description": "Magna aliquam erat volutpat enim ad minim veniam. Duis autem vel eum iriure dolor in hendrerit in. quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam esse beatae hic perferendis velit deserunt soluta iste repellendus officia in neque veniam debitis Consectetur, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium vitae, consequuntur minima tempora cupiditate ratione est, ad molestias deserunt in ipsam ea quasi cum culpa adipisci dolores voluptatum fuga at! assumenda provident lorem ipsum dolor sit amet, consectetur. \nDonec posuere bibendum metus. Quisque gravida luctus volutpat. Mauris interdum, lectus in dapibus molestie, quam felis sollicitudin mauris, sit amet tempus velit lectus nec lorem. Nullam vel mollis neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel enim dui. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed tincidunt accumsan massa id viverra. Sed sagittis, nisl sit amet imperdiet convallis, nunc tortor consequat tellus, vel molestie neque nulla non ligula. Proin tincidunt tellus ac porta volutpat. Cras mattis congue lacus id bibendum. Mauris ut sodales libero. Maecenas feugiat sit amet enim in accumsan.",
+      "link": "the-luxury-interior-4",
+      "author": "admin",
+      "date": 1699795547000
+    }
+  ],
+  "gallery": [
+    {
+      "image": "https://ucarecdn.com/d6b52e4b-906f-4fb8-ac2f-44676074b0c6/gallery1.jpg",
+      "type": [
+        "flat",
+        "modern"
+      ]
+    },
+    {
+      "image": "https://ucarecdn.com/67d08084-b031-4238-b3f5-1f5d2e00e2c1/gallery2.jpg",
+      "type": [
+        "flat",
+        "modern"
+      ]
+    },
+    {
+      "image": "https://ucarecdn.com/7baeb0ba-43db-4550-8b0d-a6a574a50546/gallery3.jpg",
+      "type": [
+        "flat",
+        "modern"
+      ]
+    },
+    {
+      "image": "https://ucarecdn.com/a0a280f0-d97f-4884-98ce-4dad71f78cc7/gallery4.jpg",
+      "type": [
+        "flat",
+        "exterior"
+      ]
+    },
+    {
+      "image": "https://ucarecdn.com/94cbbcc9-422a-41d9-8d96-6ad714b63e6d/gallery5.jpg",
+      "type": [
+        "interior"
+      ]
+    },
+    {
+      "image": "https://ucarecdn.com/76d21a89-5015-4dd0-89ad-df2a7156806b/gallery6.jpg",
+      "type": [
+        "flat",
+        "modern"
+      ]
+    },
+    {
+      "image": "https://ucarecdn.com/7533ae58-38c1-4c06-b831-cde8214645dd/gallery7.jpg",
+      "type": [
+        "flat"
+      ]
+    },
+    {
+      "image": "https://ucarecdn.com/770bef2a-afd9-4e34-a803-2a06753b6f1c/gallery8.jpg",
+      "type": [
+        "flat",
+        "exterior"
+      ]
+    },
+    {
+      "image": "https://ucarecdn.com/4be5f2da-1d2e-4785-b31a-b30df714e838/gallery9.jpg",
+      "type": [
+        "flat",
+        "exterior"
+      ]
+    }
+  ],
+  "contact": {
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.1684193022106!2d106.8294603148676!3d-6.3722456641071235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMjInMjAuMSJTIDEwNsKwNDknNTMuOSJF!5e0!3m2!1svi!2s!4v1554780471943!5m2!1svi!2s",
+    "address": "129 Park street, New York 10903",
+    "number": "(+6221) 000 888 999",
+    "mail": "youremail@gmail.com",
+    "site": "www.yourdomain.com"
+  }
+}

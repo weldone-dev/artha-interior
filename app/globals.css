@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    @apply max-w-full mx-[max(15px,5%)];
+}
+
+section {
+    @apply max-w-full overflow-hidden ;
+}
+
+main {
+    @apply min-h-[calc(100vh-215px)];
+}
+
+.arrow-slide {
+    @apply relative border-2 border-[#c8b16f] w-[40px] h-[40px] text-center inline-flex justify-center items-center hover:before:scale-x-100;
+}
+
+.arrow-slide:before {
+    @apply content-[''] absolute h-full w-full bg-[#c8b16f] -z-10 scale-x-0 duration-300;
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        color-scheme: dark;
+    }
+}
+
+@supports (font: -apple-system-body) and (-webkit-appearance: none) {
+    img[loading='lazy'] {
+        clip-path: inset(0.6px);
+    }
+}
+
+@layer components {
+    .social-icon:before {
+        @apply content-[''] relative inline-block w-[16px] h-[2px] bg-[#c8b16f]
+    }
+}
+
+
