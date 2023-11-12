@@ -5,7 +5,7 @@ import classNames from "classnames";
 import {getMonth, getNameMount, getYear} from "@/lib/utils/get-date";
 
 const styles = {
-    "name": "relative w-[150px] inline-block mr-3 after:content-[':']  after:absolute after:font-normal after:right-0",
+    "name": "relative w-[80px] sm:w-[150px] inline-block mr-3 after:content-[':']  after:absolute after:font-normal after:right-0",
     "line": "border-b-[1px] border-[#b7a161] py-4 text-sm"
 }
 
