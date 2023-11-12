@@ -28,7 +28,7 @@ const Detail: FC<IProps> = ({date}) => {
         <div className={"relative lg:absolute z-10 right-0 duration-300 top-0 flex flex-col-reverse lg:flex-col"}>
             <div
                 className={classNames("duration-300 bg-[#c8b16f] text-white origin-top h-full", open ? "scale-y-100" : "scale-y-0 block")}>
-                <div className={classNames("py-[30px] px-[40px]  duration-300", open?"h-[28rem]":"h-0")}>
+                <div className={classNames("py-[30px] px-[40px]  duration-300", open?"h-[30rem] lg:h-[28rem]":"h-0")}>
                     <h2 className={"text-lg font-semibold uppercase"}>Projects Detail</h2>
                     <ul className={classNames("py-2", !open&&"invisible")}>
                         <li className={styles["line"]}>
