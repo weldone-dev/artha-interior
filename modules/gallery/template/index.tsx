@@ -1,7 +1,9 @@
 "use client"
-import {useState} from 'react';
+import {useEffect, useState} from 'react';
 import type {FC} from 'react'
 import classNames from "classnames";
+import {CSSTransition} from 'react-transition-group';
+
 import {AiOutlineArrowRight} from "react-icons/ai";
 import {IFilterButton, IGallery, IGalleryFilter} from "@/types/global";
 import FullImageGallery from "@/modules/gallery/components/full-image-gallery";
@@ -19,22 +21,32 @@ const filterButtons: IFilterButton[] = [
     {text: "Interior Design", type: "interior"},
     {text: "Modern Design", type: "modern"}
 ]
-
+const styles = {
+    enter: "scale-0 opacity-0",
+    enterActive: "transition-scale",
+    enterDone: "scale-100 opacity-100 w-full h-full",
+    exitDone: "hidden w-0 h-0"
+}
 const GalleryTemplate: FC<IProps> = ({gallery}) => {
     const [filter, setFilter] = useState<IGalleryFilter>();
-    const [viewGallery, setViewGallery] = useState(false);
+    const [showModalGallery, setShowModalGallery] = useState(false);
     const [startIndex, setStartIndex] = useState<number>(0);
     const galleryFiler = gallery.filter(value => filter === undefined || value.type.includes(filter));
+    const [viewsGallery, setViewsGallery] = useState<boolean[]>(new Array(gallery.length).fill(true))
 
     function openGallery(index: number) {
         document.body.classList.add("overflow-y-hidden");
-        setViewGallery(true);
+        setShowModalGallery(true);
         setStartIndex(index);
     }
 
+    useEffect(() => {
+        setViewsGallery(gallery.map((item) => filter === undefined || item.type.includes(filter)))
+    }, [filter])
+
     function closeGallery() {
         document.body.classList.remove("overflow-y-hidden");
-        setViewGallery(false);
+        setShowModalGallery(false);
     }
 
     return (
@@ -55,27 +67,37 @@ const GalleryTemplate: FC<IProps> = ({gallery}) => {
                     ))}
                 </div>
             </div>
-            <div className={"grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 mt-16 duration-300"}>
-                {galleryFiler.map((gallery, index) => (
-                    <div
-                        key={gallery.image}
-                        onClick={() => openGallery(index)}
-                        className={"relative group min-h-[180px] h-[180px] overflow-hidden cursor-pointer after:content-[''] after:absolute after:w-[8%] after:bg-[#c8b16f] after:scale-x-0 after:h-0.5 after:bottom-2 after:left-5 hover:after:scale-x-100 after:duration-300 after:origin-left"}
+            <div className={"grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] gap-4 mt-16 duration-300"}>
+                {gallery.map((item, index) => (
+                    <CSSTransition
+                        key={item.image}
+                        in={viewsGallery[index]}
+                        timeout={300}
+                        classNames={styles}
+                        unmountOnExit={true}
+                        mountOnEnter={true}
                     >
-                        <ImageItem image={gallery.image}/>
-                        <div
-                            className={"absolute bottom-10 duration-300 -translate-x-full group-hover:left-5 group-hover:translate-x-0 "}>
-                            <h3 className={"uppercase text-[#c8b16f] font-semibold"}>INTERIOR HOUSE</h3>
-                            <div className={"uppercase text-xs flex items-center gap-2 "}>
-                                MORE DETAIL <AiOutlineArrowRight/>
+                        <div onClick={() => openGallery(index)}
+                             className={classNames("overflow-hidden scale-0  opacity-0 duration-500", viewsGallery[index] && "scale-100 opacity-100")}>
+                            <div
+                                className={classNames("relative group min-h-[180px] h-[180px]  overflow-hidden cursor-pointer  duration-500  after:content-[''] after:absolute after:w-[8%] after:bg-[#c8b16f] after:scale-x-0 after:h-0.5 after:bottom-2 after:left-5 hover:after:scale-x-100 after:duration-300 after:origin-left", "h-full")}>
+                                <ImageItem image={item.image}/>
+                                <div className={"hidden  scale-0 hover:scale-100"}></div>
+                                <div
+                                    className={"absolute bottom-10 duration-300 -translate-x-full group-hover:left-5 group-hover:translate-x-0 "}>
+                                    <h3 className={"uppercase text-[#c8b16f] font-semibold"}>INTERIOR HOUSE</h3>
+                                    <div className={"uppercase text-xs flex items-center gap-2 "}>
+                                        MORE DETAIL <AiOutlineArrowRight/>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </CSSTransition>
                 ))}
             </div>
             <div
-                className={classNames("fixed top-0 left-0 h-screen w-screen duration-500 opacity-0", viewGallery ? "visible opacity-100" : "invisible ")}>
-                {viewGallery &&
+                className={classNames("fixed top-0 left-0 h-screen w-screen duration-500 opacity-0", showModalGallery ? "visible opacity-100" : "invisible ")}>
+                {showModalGallery &&
                     (<FullImageGallery
                         closeGallery={closeGallery}
                         startIndex={startIndex}
